@@ -1,8 +1,8 @@
+var domify = require('domify')
+
 module.exports = function(cb) {
-	var el = document.createElement('input')
-	el.type = 'file'
+	var el = domify('<input type="file" nwdirectory>')
 	el.style.display = 'none'
-	el.webkitdirectory = ''
 	document.body.appendChild(el)
 	el.addEventListener('change', function(evt) {
 			document.body.removeChild(el)
