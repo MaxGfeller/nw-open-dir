@@ -1,14 +1,14 @@
 {
-  "name": "nw-open-file",
-  "version": "1.0.2",
-  "description": "Open a file from node-webkit easily",
+  "name": "nw-open-dir",
+  "version": "1.0.0",
+  "description": "Open a directory from node-webkit easily",
   "main": "index.js",
   "scripts": {
     "test": "say sorry; exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MaxGfeller/nw-open-file.git"
+    "url": "https://github.com/MaxGfeller/nw-open-dir.git"
   },
   "keywords": [
     "node",
@@ -21,9 +21,9 @@
   "author": "Max Gfeller <max.gfeller@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MaxGfeller/nw-open-file/issues"
+    "url": "https://github.com/MaxGfeller/nw-open-dir/issues"
   },
-  "homepage": "https://github.com/MaxGfeller/nw-open-file",
+  "homepage": "https://github.com/MaxGfeller/nw-open-dir",
   "dependencies": {},
   "devDependencies": {
     "tap": "^0.4.12"
