@@ -1,14 +1,14 @@
-# nw-open-file
+# nw-open-dir
 
-Easily open a file from a node-webkit application.
+Easily open a directory from a node-webkit application.
 
 ## Usage
 
 ```javascript
-var open = require('nw-open-file')
+var open = require('nw-open-dir')
 
-open(function(filename) {
-    console.log(filename)
+open(function(dir) {
+    console.log(dir)
 })
 ```
 
