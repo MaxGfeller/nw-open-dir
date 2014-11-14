@@ -1,5 +1,3 @@
-var cuid = require('cuid')
-
 module.exports = function(cb) {
 	var el = document.createElement('input')
 	el.type = 'file'
