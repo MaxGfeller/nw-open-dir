@@ -1,6 +1,6 @@
 {
   "name": "nw-open-dir",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Open a directory from node-webkit easily",
   "main": "index.js",
   "scripts": {
